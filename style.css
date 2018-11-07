@@ -16,8 +16,13 @@ body {
     overflow: visible;
 }
 
+#slide-1 h1 {
+  margin: 170px 0 0;
+}
+
 h1 {
     font-size: 250%;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
