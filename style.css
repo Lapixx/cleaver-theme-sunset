@@ -92,7 +92,7 @@ li > ul > li:before {
     opacity: 0.5;
 }
 
-code {
+pre, code {
     font-family: "Monaco", monospace;
 }
 
