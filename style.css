@@ -219,6 +219,22 @@ img[alt="background"] {
     transition-duration: 0.25s;
 }
 
+.numbers {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    padding: 0.2em 1em;
+    border-radius: 40px;
+}
+/* #slide-1 .numbers,
+.slide.dark .numbers, */
+.numbers:empty {
+    display: none;
+}
+
 /*
 Atom One Dark by Daniel Gamage
 Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
