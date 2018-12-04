@@ -55,12 +55,12 @@ h4 + ul, h5 + ul, h6 + ul {
 }
 
 a {
-    color: #61C5AA;
+    color: #000000;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #44b999;
+    color: #000000;
     text-decoration: none;
 }
 
