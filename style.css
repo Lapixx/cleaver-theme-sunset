@@ -173,6 +173,7 @@ img[alt="background"] {
 #slide-1 {
     background-color: #FF5544;
     color: #FFFFFF;
+    text-align: center;
 }
 
 
@@ -191,6 +192,26 @@ img[alt="background"] {
 
 #slide-1 h2, .slide.dark h2 {
     opacity: 0.75;
+}
+
+#slide-1 h3 {
+  display: inline-block;
+  border: 0;
+  font-size: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  padding: 0.2em 1em;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+
+#slide-1 a {
+  position: relative;
+  z-index: 10;
+}
+
+#slide-1 h3 a, #slide-1 h3 a:hover {
+  color: #FFFFFF;
 }
 
 .slide.dark ul > li:before {
